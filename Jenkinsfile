@@ -5,7 +5,7 @@ agent any
     stages {
         stage('Lint Checks'){
         steps {
-        script { nodejs.info('user') }
+        script { nodejs.lintCheck('user') }
            }
         }
     } // end of stages
