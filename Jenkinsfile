@@ -1,5 +1,5 @@
 @Library('roboshop-shared-library@main') _
-nodejs('user')
+nodejs("user")
 
 // pipeline {
 // agent any
